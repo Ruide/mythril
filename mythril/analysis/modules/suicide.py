@@ -17,7 +17,7 @@ Check for SUICIDE instructions that either can be reached by anyone, or where ms
 
 def execute(statespace):
 
-    logging.debug("Executing module: UNCHECKED_SUICIDE")
+    logging.debug("Executing module: UNCHECKED_SUICIDE") # test for docker
 
     issues = []
 
